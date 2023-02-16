@@ -1,0 +1,4 @@
+Options +FollowSymlinks
+RewriteEngine on
+rewritecond %{http_host} ^concare.com [nc]
+rewriterule ^(.*)$ https://www.concare.com/$1 [r=301,nc]

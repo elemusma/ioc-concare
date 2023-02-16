@@ -1,0 +1,437 @@
+AWSTATS DATA FILE 6.7 (build 1.892)
+# If you remove this file, all statistics for date 201901 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2535                
+POS_VISITOR 7379                
+POS_DAY 11233               
+POS_DOMAIN 3138                
+POS_LOGIN 3369                
+POS_ROBOT 3524                
+POS_WORMS 3934                
+POS_EMAILSENDER 4065                
+POS_EMAILRECEIVER 4208                
+POS_SESSION 11318               
+POS_SIDER 11506               
+POS_FILETYPES 4343                
+POS_OS 4573                
+POS_BROWSER 4669                
+POS_SCREENSIZE 4876                
+POS_UNKNOWNREFERER 4950                
+POS_UNKNOWNREFERERBROWSER 5391                
+POS_ORIGIN 5827                
+POS_SEREFERRALS 5964                
+POS_PAGEREFS 6131                
+POS_SEARCHWORDS 6362                
+POS_KEYWORDS 6514                
+POS_MISC 2199                
+POS_ERRORS 6573                
+POS_CLUSTER 3225                
+POS_SIDER_404 6661                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20190201000144 1 0 6503205011359
+FirstTime 20190131144029
+LastTime 20190131235604
+LastUpdate 20190202020917 1 0 0 0 0
+TotalVisits 79                  
+TotalUnique 71                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 108                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 0 0 0 0 0 0
+2 0 0 0 0 0 0
+3 0 0 0 0 0 0
+4 0 0 0 0 0 0
+5 0 0 0 0 0 0
+6 0 0 0 0 0 0
+7 0 0 0 0 0 0
+8 0 0 0 0 0 0
+9 0 0 0 0 0 0
+10 0 0 0 0 0 0
+11 0 0 0 0 0 0
+12 0 0 0 0 0 0
+13 0 0 0 0 0 0
+14 10 29 1150965 5 6 107505
+15 6 10 212256 29 29 736349
+16 20 113 5526794 12 12 155244
+17 13 36 1315664 1 2 54127
+18 25 73 4259854 5 6 84858
+19 21 41 1337245 4 14 180380
+20 25 96 4566930 6 8 105999
+21 6 7 163902 35 35 253722
+22 4 4 99860 4 5 113799
+23 23 86 4395910 3 5 73828
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 153 495 23029380
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 8
+infobot 36 598284 20190131221952 2
+\wbot[\/\-] 21 350179 20190131233245 5
+baiduspider 15 184118 20190131212851 0
+googlebot 12 555930 20190131232347 2
+robot 6 76329 20190131232447 2
+seznambot 4 27015 20190131184355 2
+unknown 3 96 20190131215540 3
+yandex 2 60635 20190131221515 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+css 38 575999 0 0
+png 83 563912 0 0
+ttf 14 10503024 0 0
+woff2 24 398400 0 0
+txt 1 98 0 0
+woff 7 49680 0 0
+php 70 1095331 0 0
+html 37 923705 0 0
+js 86 802442 0 0
+jpg 135 8116789 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 6
+macosx 157
+winxp 13
+unix 4
+winnt 246
+Unknown 16
+linux 59
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 12
+firefox2.0.0.11 1
+msie6.0 5
+firefox64.0 1
+firefox6.0.2 1
+mozilla 3
+netscape5.0 1
+firefox43.0 14
+firefox52.0 1
+msie5.0 1
+firefox30.0 1
+Unknown 16
+safari 450
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 7
+SEMrushBot 20190131202420
+com.google.GoogleMobile/55.0.0_iPhone/12.1.2_hw/iPhone10_1 20190131215022
+Photon/1.0 20190131163046
+COMODO_DCV 20190131144430
+com.google.GoogleMobile/65.0.0_iPhone/12.1.2_hw/iPhone9_4 20190131192255
+Go-http-client/1.1 20190131210847
+FreeWebMonitoring_SiteChecker/0.2_(_https://www.freewebmonitoring.com/bot.html) 20190131233730
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 7
+SEMrushBot 20190131202420
+com.google.GoogleMobile/55.0.0_iPhone/12.1.2_hw/iPhone10_1 20190131215022
+Photon/1.0 20190131163046
+COMODO_DCV 20190131144430
+com.google.GoogleMobile/65.0.0_iPhone/12.1.2_hw/iPhone9_4 20190131192255
+Go-http-client/1.1 20190131210847
+FreeWebMonitoring_SiteChecker/0.2_(_https://www.freewebmonitoring.com/bot.html) 20190131233730
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 58 62
+From1 0 0
+From2 13 27
+From3 4 5
+From4 78 401
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 12 26
+baidu 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+http://hit-kino.ru 3 3
+http://www.coatrightfloors.com 1 1
+https://www.bing.com 0 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 23 13225
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 15
+/joomla/robots.txt 1 -
+/blog/robots.txt 3 -
+/blog/ 2 -
+/wordpress/ 2 -
+/flooring-solutions/food-industry.asp 1 -
+/wp/ 2 -
+/xmlrpc.php 1 -
+/pharmaceutical/ 1 -
+/administrator/index.php 1 -
+/joomla/administrator/index.php 1 -
+/flooring-solutions/health-care-industry.asp 1 -
+/products.json 1 -
+/.well-known/pki-validation/A03FCD3688C54E52138D864779A0DEEF.txt 1 -
+/ads.txt 4 -
+/blog/administrator/index.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 108
+198.16.7.150 9 9 224685 20190131233730
+99.203.20.89 7 43 2284449 20190131182219
+49.206.6.36 6 42 2201217 20190131235606
+185.17.149.161 6 6 66466 20190131171048
+73.208.23.93 5 40 2174366 20190131202834
+12.28.7.18 5 41 2176252 20190131161533
+166.181.81.91 4 21 1107956 20190131230613
+66.41.31.157 4 22 996257 20190131200508
+208.87.237.201 4 22 996257 20190131163706
+174.203.5.160 4 21 992622 20190131144344
+65.199.56.7 0 1 11825 
+111.206.222.182 0 1 11955 
+40.107.214.34 1 8 1020692 20190131160711
+40.107.214.17 2 11 356340 20190131160712
+220.243.135.214 1 1 16854 20190131195425
+111.206.198.211 0 1 54269 
+24.101.162.22 0 1 29162 
+40.107.214.99 0 3 27421 
+111.206.222.181 0 1 7885 
+220.243.136.107 1 1 17934 20190131195430
+165.225.72.79 0 1 60603 
+128.62.46.45 0 1 8669 
+123.125.67.215 1 1 24965 20190131200411
+111.206.198.225 0 1 120378 
+130.118.152.217 0 1 60603 
+84.32.143.45 3 3 33263 20190131191247
+40.107.214.56 2 9 440962 20190131160714
+180.97.35.20 1 3 46591 20190131235212
+128.177.10.252 1 1 24965 20190131213158
+178.122.217.70 3 3 33214 20190131184505
+220.243.136.103 1 1 18333 20190131181603
+207.81.181.91 0 1 8669 
+111.206.222.207 0 2 249892 
+111.206.222.217 0 1 6868 
+111.206.198.131 0 1 25935 
+111.206.222.49 0 1 125267 
+220.243.135.109 3 7 788235 20190131181605
+104.133.10.84 1 3 59702 20190131150223
+46.229.161.131 1 1 24965 20190131202420
+64.135.127.45 1 1 24965 20190131160041
+193.169.252.19 1 1 17551 20190131202934
+69.180.155.97 0 1 13319 
+185.17.149.157 3 3 33232 20190131200252
+180.97.35.21 0 1 8097 
+111.206.198.172 0 1 82915 
+144.168.162.250 1 1 24965 20190131153035
+35.231.225.25 1 1 24965 20190131144250
+91.199.212.132 1 1 98 20190131144430
+206.121.239.206 0 1 14497 
+220.243.136.47 1 1 19078 20190131181603
+111.206.198.164 0 1 49176 
+111.206.222.89 0 1 122579 
+73.50.47.238 1 3 59702 20190131173806
+134.249.67.95 3 3 74895 20190131220606
+180.97.35.37 0 2 15499 
+180.97.35.91 1 2 22661 20190131235212
+95.85.80.96 1 1 19069 20190131154104
+220.243.136.140 1 1 7182 20190131195427
+180.97.35.89 2 6 849877 20190131235212
+202.46.50.18 1 1 24965 20190131235604
+220.243.135.151 1 1 23042 20190131195154
+220.243.135.12 2 2 34113 20190131205416
+192.0.102.68 0 1 43598 
+52.53.201.78 1 1 24965 20190131151404
+103.119.66.31 0 1 60603 
+111.206.222.39 0 1 8562 
+220.243.136.40 2 2 36170 20190131181603
+220.243.135.138 1 1 17362 20190131205553
+218.185.16.148 0 1 38833 
+1.10.186.209 3 3 33215 20190131144036
+220.243.136.229 2 2 37367 20190131181604
+111.206.198.175 0 1 104317 
+47.225.96.120 0 1 19128 
+124.40.40.227 0 1 14497 
+107.77.104.117 0 1 12062 
+5.62.159.131 1 1 18845 20190131202631
+178.122.238.236 3 3 33182 20190131232214
+40.107.214.93 0 10 330837 
+66.11.128.152 1 1 24965 20190131230922
+220.243.135.40 1 1 21540 20190131181603
+92.248.163.16 3 3 35902 20190131194907
+35.245.35.141 1 1 24965 20190131215446
+220.243.135.173 1 1 35908 20190131181603
+220.243.135.103 2 8 162877 20190131181603
+220.243.136.12 1 1 17466 20190131205322
+72.142.185.43 0 1 14497 
+166.170.5.128 4 21 987710 20190131170255
+220.243.136.151 1 1 16985 20190131195426
+220.243.136.88 1 1 17480 20190131195248
+66.70.178.119 3 3 59845 20190131210902
+96.74.162.65 2 2 49930 20190131160744
+185.246.210.153 1 1 24965 20190131154539
+111.206.222.50 0 1 86407 
+220.243.136.201 1 1 18282 20190131205554
+50.226.146.162 0 1 60603 
+68.5.133.155 4 22 996257 20190131193507
+111.206.222.59 0 1 15801 
+174.31.112.236 0 1 14497 
+37.115.114.228 3 3 35935 20190131231454
+220.243.135.25 2 2 35462 20190131195425
+220.243.135.88 1 1 18783 20190131195425
+220.243.136.75 2 2 33281 20190131205554
+220.243.135.14 1 1 20471 20190131195427
+203.217.241.13 1 1 35908 20190131203950
+50.202.38.5 1 1 24965 20190131172315
+40.77.193.125 1 1 750216 20190131183055
+107.77.105.62 0 1 14497 
+77.243.191.38 3 3 36052 20190131170201
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 1
+20190131 153 495 23029380 79
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+5mn-15mn 1
+0s-30s 64
+30s-2mn 5
+2mn-5mn 7
+30mn-1h 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 40
+/ 37 923705 30 26
+/contact-concare.php 20 336561 9 9
+/fonts/arialbd.ttf 14 10503024 5 5
+/fonts/gotham-medium-webfont.woff2 12 202896 1 5
+/fonts/gotham-bold-webfont.woff2 12 195504 4 1
+/formfiles/contact-securimage_show.php 10 6892 1 1
+/fonts/flexslider-icon.woff 5 6340 0 3
+/concrete-cove-base.php 4 69064 2 0
+/contact-us.php 4 69920 3 2
+/data-center-electronics-concrete-floor-coating.php 2 34932 2 1
+/Shaving-Grooving-industrial-concrete-floor-surface.php 1 18527 0 1
+/case-study-arsenal-secondary-containment-chemical-resistant-floor-coating.php 1 18783 1 1
+/remove-industrial-tile-restore-concrete-floor.php 1 17551 1 1
+/concare-form.php 1 7182 1 1
+/explore-concare.php 1 16488 1 0
+/concrete-floor-coating-maintenance-facility-aviation-hangar.php 1 18333 1 1
+/fonts/gotham-medium-webfont.woff 1 21928 1 1
+/repair-concrete-floor-chipping.php 1 16433 0 0
+/concare-news.php 1 18282 1 1
+/scarify-industrial-concrete-floors.php 1 16735 0 1
+/antistatic-esd-conductive-concrete-floor.php 1 18727 1 0
+/power-wash-industrial-concrete-floor.php 1 16985 1 1
+/industrial-concrete-floor-coating.php 1 17625 0 1
+/.well-known/pki-validation/A03FCD3688C54E52138D864779A0DEEF.txt 1 98 1 1
+/iron-aggregate-concrete-floor-topping.php 1 19070 0 1
+/case-study-powder-food-service-floor-coating.php 1 20471 1 1
+/mma-flooring-coating.php 1 18401 0 0
+/fonts/gotham-bold-webfont.woff 1 21412 1 1
+/repair-concrete-floor.php 1 16015 0 1
+/about-concare.php 2 34724 1 2
+/institution-recreation-stadium-cafeteria-concrete-floor-coating.php 1 18297 1 0
+/concare-service-area.php 2 35868 1 2
+/antimicrobial-floors.php 1 18828 0 1
+/concare-blog.php 2 71816 2 2
+/replace-existing-concrete-coating-industrial-floors-commercial-floors.php 1 19078 1 1
+/5s-floor-markings.php 1 16854 1 1
+/case-study-food-floor-coating.php 1 21540 1 1
+/index.php 1 24965 0 0
+/Concare-careers.php 1 23042 1 1
+/concrete-floor-coating-industries.php 1 17342 1 0
+END_SIDER

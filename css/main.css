@@ -1,0 +1,1175 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browse Happy prompt
+   ========================================================================== */
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+   
+   
+/*
+ * Dropit v1.1.0
+ * http://dev7studios.com/dropit
+ *
+ * Copyright 2012, Dev7studios
+ * Free to use and abuse under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ */
+
+/* These styles assume you are using ul and li */
+.dropit {
+    list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.dropit .dropit-trigger { position: relative; }
+.dropit .dropit-submenu {
+    position: absolute;
+    top: 100%;
+    left: 0; /* dropdown left or right */
+    z-index: 1000;
+    display: none;
+    min-width: 150px;
+    list-style: none;
+}
+.dropit .dropit-open .dropit-submenu { display: block; }
+
+
+@font-face {
+    font-family: 'gotham_thinregular';
+    src: url('../fonts/gotham-thin-webfont.eot');
+    src: url('../fonts/gotham-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gotham-thin-webfont.woff2') format('woff2'),
+         url('../fonts/gotham-thin-webfont.woff') format('woff'),
+         url('../fonts/gotham-thin-webfont.ttf') format('truetype'),
+         url('../fonts/gotham-thin-webfont.svg#gotham_thinregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gotham_thinitalic';
+    src: url('../fonts/gotham-thinitalic-webfont.eot');
+    src: url('../fonts/gotham-thinitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gotham-thinitalic-webfont.woff2') format('woff2'),
+         url('../fonts/gotham-thinitalic-webfont.woff') format('woff'),
+         url('../fonts/gotham-thinitalic-webfont.ttf') format('truetype'),
+         url('../fonts/gotham-thinitalic-webfont.svg#gotham_thinitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gotham_mediumitalic';
+    src: url('../fonts/gotham-mediumitalic-webfont.eot');
+    src: url('../fonts/gotham-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gotham-mediumitalic-webfont.woff2') format('woff2'),
+         url('../fonts/gotham-mediumitalic-webfont.woff') format('woff'),
+         url('../fonts/gotham-mediumitalic-webfont.ttf') format('truetype'),
+         url('../fonts/gotham-mediumitalic-webfont.svg#gotham_mediumitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gotham_lightitalic';
+    src: url('../fonts/gotham-lightitalic-webfont.eot');
+    src: url('../fonts/gotham-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gotham-lightitalic-webfont.woff2') format('woff2'),
+         url('../fonts/gotham-lightitalic-webfont.woff') format('woff'),
+         url('../fonts/gotham-lightitalic-webfont.ttf') format('truetype'),
+         url('../fonts/gotham-lightitalic-webfont.svg#gotham_lightitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gotham_mediumregular';
+    src: url('../fonts/gotham-medium-webfont.eot');
+    src: url('../fonts/gotham-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gotham-medium-webfont.woff2') format('woff2'),
+         url('../fonts/gotham-medium-webfont.woff') format('woff'),
+         url('../fonts/gotham-medium-webfont.ttf') format('truetype'),
+         url('../fonts/gotham-medium-webfont.svg#gotham_mediumregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gotham_lightregular';
+    src: url('../fonts/gotham-light-webfont.eot');
+    src: url('../fonts/gotham-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gotham-light-webfont.woff2') format('woff2'),
+         url('../fonts/gotham-light-webfont.woff') format('woff'),
+         url('../fonts/gotham-light-webfont.ttf') format('truetype'),
+         url('../fonts/gotham-light-webfont.svg#gotham_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gotham_bolditalic';
+    src: url('../fonts/gotham-bolditalic-webfont.eot');
+    src: url('../fonts/gotham-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gotham-bolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/gotham-bolditalic-webfont.woff') format('woff'),
+         url('../fonts/gotham-bolditalic-webfont.ttf') format('truetype'),
+         url('../fonts/gotham-bolditalic-webfont.svg#gotham_bolditalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gotham_boldregular';
+    src: url('../fonts/gotham-bold-webfont.eot');
+    src: url('../fonts/gotham-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gotham-bold-webfont.woff2') format('woff2'),
+         url('../fonts/gotham-bold-webfont.woff') format('woff'),
+         url('../fonts/gotham-bold-webfont.ttf') format('truetype'),
+         url('../fonts/gotham-bold-webfont.svg#gotham_boldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'arial_boldregular';
+    src: url('../fonts/arialbd.ttf') format('truetype');
+
+}
+
+
+@font-face {
+    font-family: 'gotham_blackitalic';
+    src: url('../fonts/gotham-blackitalic-webfont.eot');
+    src: url('../fonts/gotham-blackitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gotham-blackitalic-webfont.woff2') format('woff2'),
+         url('../fonts/gotham-blackitalic-webfont.woff') format('woff'),
+         url('../fonts/gotham-blackitalic-webfont.ttf') format('truetype'),
+         url('../fonts/gotham-blackitalic-webfont.svg#gotham_blackitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gotham_blackregular';
+    src: url('../fonts/gotham-black-webfont.eot');
+    src: url('../fonts/gotham-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gotham-black-webfont.woff2') format('woff2'),
+         url('../fonts/gotham-black-webfont.woff') format('woff'),
+         url('../fonts/gotham-black-webfont.ttf') format('truetype'),
+         url('../fonts/gotham-black-webfont.svg#gotham_blackregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gotham_extralightitalic';
+    src: url('../fonts/gotham-xlightitalic-webfont.eot');
+    src: url('../fonts/gotham-xlightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gotham-xlightitalic-webfont.woff2') format('woff2'),
+         url('../fonts/gotham-xlightitalic-webfont.woff') format('woff'),
+         url('../fonts/gotham-xlightitalic-webfont.ttf') format('truetype'),
+         url('../fonts/gotham-xlightitalic-webfont.svg#gotham_extralightitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gotham_extralightregular';
+    src: url('../fonts/gotham-xlight-webfont.eot');
+    src: url('../fonts/gotham-xlight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gotham-xlight-webfont.woff2') format('woff2'),
+         url('../fonts/gotham-xlight-webfont.woff') format('woff'),
+         url('../fonts/gotham-xlight-webfont.ttf') format('truetype'),
+         url('../fonts/gotham-xlight-webfont.svg#gotham_extralightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gotham_ultraregular';
+    src: url('../fonts/gotham-ultra-webfont.eot');
+    src: url('../fonts/gotham-ultra-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gotham-ultra-webfont.woff2') format('woff2'),
+         url('../fonts/gotham-ultra-webfont.woff') format('woff'),
+         url('../fonts/gotham-ultra-webfont.ttf') format('truetype'),
+         url('../fonts/gotham-ultra-webfont.svg#gotham_ultraregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gotham_ultraitalic';
+    src: url('../fonts/gotham-ultraitalic-webfont.eot');
+    src: url('../fonts/gotham-ultraitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gotham-ultraitalic-webfont.woff2') format('woff2'),
+         url('../fonts/gotham-ultraitalic-webfont.woff') format('woff'),
+         url('../fonts/gotham-ultraitalic-webfont.ttf') format('truetype'),
+         url('../fonts/gotham-ultraitalic-webfont.svg#gotham_ultraitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}   
+   
+
+   
+h1 {
+	font-family: "gotham_boldregular";
+	font-size: 32px;
+	color: #0081c6;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+h3 {
+	font-size: 16px;
+	color: #000000;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+p {
+	margin: 0;
+	padding: 0;
+}
+
+@media screen and (min-width: 950px){  
+	section.content .smallerwidth {
+		width: 950px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0px;
+	}
+
+	section img {
+		float: right;
+	}
+	
+	.container {
+		width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media screen and (min-width: 500px) and (max-width: 949px){  
+	section.content .smallerwidth {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0px;
+	}
+
+	section img {
+		float: right;
+	}
+	
+	.container {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media screen and (max-width: 499px){  
+	section.content .smallerwidth {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0px;
+	}
+
+	section img {
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+		height: 100%
+	}
+	
+	.container {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+  
+.floated {
+	float: left;
+	margin-top: 5px;
+}
+
+header {
+
+}
+	header .container {
+		background: url(images/top.jpg) top left no-repeat;
+		width: 100%;
+		margin-top: 0px;
+	}
+	
+@media screen and (min-width: 620px){
+	header .firstbox {
+		float: left;
+		margin-left: 50px;
+	}
+	header .number {
+		font-family: "arial_boldregular";
+		font-size: 36px;
+		color: #0081c6;
+		margin-top: 0px;
+		margin-right: 50px;
+	}
+	/* unvisited link */
+	header .number a:link {
+		color: black;
+	}
+	/* visited link */
+	header .number a:visited {
+		color: black;
+	}
+	/* mouse over link */
+	header .number a:hover {
+		color: blue;
+	}
+	/* selected link */
+	header .number a:active {
+		color: blue;
+	}
+	header .secondnumber {
+		font-family: "gotham_mediumregular";
+		font-size: 20px;
+		text-align: right;
+		margin-right: 50px;
+	}
+	header .secondbox {
+		float: right;
+	}
+	header .socialicons {
+		float: right;
+		margin-right: 50px;
+		position: relative;
+		top: -3px;
+	}
+	.content .container .contentcontainer iframe {
+		width: 560px;
+		height: 315px;
+	}
+}
+
+@media screen and (max-width: 619px){
+	header .firstbox {
+		float: left;
+		margin-left: 35px;
+	}
+	header .number {
+		font-family: "arial_boldregular";
+		font-size: 20px;
+		color: #0081c6;
+		margin-top: 10px;
+		margin-left: 35px;
+	}
+	/* unvisited link */
+	header .number a:link {
+		color: black;
+	}
+	/* visited link */
+	header .number a:visited {
+		color: black;
+	}
+	/* mouse over link */
+	header .number a:hover {
+		color: blue;
+	}
+	/* selected link */
+	header .number a:active {
+		color: blue;
+	}
+	header .secondnumber {
+		font-family: "gotham_mediumregular";
+		font-size: 20px;
+		text-align: right;
+		margin-right: 50px;
+	}
+	header .secondbox {
+		float: left;
+	}
+	header .socialicons {
+		float: left;
+		margin-left: 50px;
+		position: relative;
+		top: -3px;
+	}
+	.content .container .contentcontainer iframe {
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 890px){
+	nav {
+	}
+	nav ul:first-child {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		background-color: #342f27;
+		text-align: center;
+	}
+	nav ul:first-child li {
+		display: inline;
+		position: relative;
+		list-style-type: none;
+		padding-right: 30px;
+		font-family: "gotham_boldregular";
+		font-size: 14px;
+	}
+		nav ul:first-child li a {
+			color: #fff;
+			text-transform: uppercase;
+			text-decoration: none;
+		}
+		nav ul li a:hover, nav ul li a.active {
+			color: #00a2f1;
+		}
+	nav ul li ul {
+		position: absolute;
+		text-align: left;
+		margin: 0;
+		padding: 0;
+		background-color: #342f27;
+		margin-left: -10px;
+		padding-left: 10px;
+		margin-top: 3px;
+	}
+	nav ul li ul li {
+		display: block !important;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		border-bottom: 1px #8bc4e2 solid;
+		padding-right: 5px;
+		width: 135px;
+		line-height: 10px;
+		font-family: "gotham_boldregular";
+		font-size: 14px;
+		margin-right: 10px;
+	}
+	nav ul li ul li:last-child {
+		border-bottom: none;
+	}
+	nav ul li ul li a {
+	}
+	header .mob-but {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 750px) and (max-width: 889px){
+	nav {
+	}
+	nav ul:first-child {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		background-color: #342f27;
+		text-align: center;
+	}
+	nav ul:first-child li {
+		display: inline;
+		position: relative;
+		list-style-type: none;
+		padding-right: 10px;
+		font-family: "gotham_boldregular";
+		font-size: 14px;
+	}
+		nav ul:first-child li a {
+			color: #fff;
+			text-transform: uppercase;
+			text-decoration: none;
+		}
+		nav ul li a:hover, nav ul li a.active {
+			color: #00a2f1;
+		}
+	nav ul li ul {
+		position: absolute;
+		text-align: left;
+		margin: 0;
+		padding: 0;
+		background-color: #342f27;
+		margin-left: -50px;
+		padding-left: 10px;
+		margin-top: 3px;
+	}
+	nav ul li ul li {
+		display: block !important;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		border-bottom: 1px #8bc4e2 solid;
+		padding-right: 5px;
+		width: 150px;
+		line-height: 10px;
+		font-family: "gotham_boldregular";
+		font-size: 14px;
+		margin-right: 10px;
+	}
+	nav ul li ul li:last-child {
+		border-bottom: none;
+	}
+	nav ul li ul li a {
+	}
+	header .mob-but {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 749px){
+	nav {
+		display: none;
+	}
+	nav ul:first-child {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		background-color: #342f27;
+		text-align: center;
+	}
+	nav ul:first-child li {
+		display: block;
+		position: relative;
+		list-style-type: none;
+		font-family: "gotham_boldregular";
+		font-size: 14px;		
+		border-top: #8bc4e2 solid 2px;
+		border-top-width: 100%;
+	}
+		nav ul:first-child li a {
+			color: #fff;
+			text-transform: uppercase;
+			text-decoration: none;
+		}
+		nav ul li a:hover, nav ul li a.active {
+			color: #00a2f1;
+		}
+	nav ul li ul {
+		position: absolute;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+		background-color: #342f27;
+		margin-left: 10px;
+		padding-left: 0px;
+		margin-top: 3px;
+	}
+	nav ul li ul li {
+		display: block !important;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		border-bottom: 1px #8bc4e2 solid;
+		padding-right: 5px;
+		width: 150px;
+		line-height: 10px;
+		font-family: "gotham_boldregular";
+		font-size: 14px;
+		margin-right: 10px;
+	}
+	nav ul li ul li:last-child {
+		border-bottom: none;
+	}
+	nav ul li ul li a {
+	}
+	header .mob-but {
+		background-color: #342f27;
+	}
+	button,input,optgroup,select,textarea {
+		margin:0;
+		font:inherit;
+		color:inherit;
+	}
+	button {
+		overflow:visible;
+	}
+	button,select {
+		text-transform:none;
+	}
+	button,html input[type="button"],input[type="reset"],input[type="submit"] {
+		-webkit-appearance:button;
+		cursor:pointer;
+	}
+	button[disabled],html input[disabled] {
+		cursor:default;
+	}
+	button::-moz-focus-inner,input::-moz-focus-inner {
+		padding:0;
+		border:0;
+	}
+	.small {
+		position:relative;
+		padding:10px 10px;
+		margin-top:8px;
+		margin-left:20px;
+		margin-bottom:8px;
+		background-color: transparent;
+		border:1px solid #fff;
+		border-radius:4px;
+	}
+	.small:hover {
+		background-color: #00a2f1;
+	}
+	.small .icon {
+		display:block;
+		background-color: #fff;
+		width:22px;
+		height:2px;
+		border-radius:1px;
+	}
+	.small .icon+.icon {
+		margin-top:4px;
+	}
+}
+
+@media screen and (min-width: 995px){
+.heros {	
+}
+	.heros .hero {
+		width: 32%;
+		text-align: center;
+		margin-right: 12px;
+	}
+	.heros .hero .content {
+		background-color: #e5e3e2;
+		width: 95%;
+		height: 183px;
+	}
+	.heros .hero .header {
+		background-color: #0082c8;
+		width: 95%;
+		position: relative;
+		text-align: center;
+		height: 25px;
+		color: #FFF;
+		line-height: 28px;
+		font-family: "gotham_mediumregular";
+	}
+	
+	.heros .hero .header:after {
+	    content: "";
+	    position: absolute;
+	    width: 0; 
+		height: 0;
+	    right: 0;
+		border-left: 15px solid transparent;
+		border-right: 0px solid transparent;
+		border-top: 25px solid #fff;
+	}
+}
+
+@media screen and (min-width: 500px) and (max-width: 994px){
+.heros {	
+}
+	.heros .hero {
+		width: 35%;
+		margin-left: 10%;
+		text-align: center;
+	}
+	.heros .hero:last-child {
+		width: 35%;
+		margin-left: 10%;
+		margin-right: 10%;
+		text-align: center;
+	}
+	.heros .hero .content {
+		background-color: #e5e3e2;
+		width: 100%;
+		height: 100%;
+	}
+	.heros .hero .content img {
+		background-color: #e5e3e2;
+		width: 100%;
+		height: 100%;
+	}
+	.heros .hero .header {
+		background-color: #0082c8;
+		width: 100%;
+		position: relative;
+		text-align: center;
+		height: 25px;
+		color: #FFF;
+		line-height: 28px;
+		font-family: "gotham_mediumregular";
+	}
+	
+	.heros .hero .header:after {
+	    content: "";
+	    position: absolute;
+	    width: 0; 
+		height: 0;
+	    right: 0;
+		border-left: 15px solid transparent;
+		border-right: 0px solid transparent;
+		border-top: 25px solid #fff;
+	}
+}	
+
+@media screen and (max-width: 499px){
+.heros {	
+}
+	.heros .hero {
+		width: 100%;
+		text-align: center;
+	}
+	.heros .hero .content {
+		background-color: #e5e3e2;
+		width: 100%;
+		height: 100%;
+	}
+	.heros .hero .content img {
+		background-color: #e5e3e2;
+		width: 100%;
+		height: 100%;
+	}
+	.heros .hero .header {
+		background-color: #0082c8;
+		width: 100%;
+		position: relative;
+		text-align: center;
+		height: 25px;
+		color: #FFF;
+		line-height: 28px;
+		font-family: "gotham_mediumregular";
+	}
+	
+	.heros .hero .header:after {
+	    content: "";
+	    position: absolute;
+	    width: 0; 
+		height: 0;
+	    right: 0;
+		border-left: 15px solid transparent;
+		border-right: 0px solid transparent;
+		border-top: 25px solid #fff;
+	}
+}	
+	
+.contentcontainer {
+	
+}
+	.contentcontainer p {
+		font-size: 14px;
+		color: #000;
+		padding-bottom: 10px;
+	}
+	.contentcontainer li {
+		font-size: 14px;
+		color: #000;
+	}
+
+@media screen and (min-width: 995px){
+	footer { background: url(images/repeating.png) repeat-x;
+	color: #ffffff;
+	font-size: 12px;
+	font-family: "gotham_mediumregular";
+	padding-top: 20px;
+	padding-bottom: 10px;
+	}	
+	footer .container {
+		width: 995px;
+	}
+	footer .floated {
+		width: 20%;
+	}
+	footer .bottomlogo {
+		margin-top: 50px;
+		margin-left: -5px;
+	}
+	footer .footerlinks {
+		font-size: 11px;
+		font-family: "gotham_mediumregular";
+		color: #fff;
+	}
+	footer .footerlinks ul li {
+		padding-right: 54px;
+		list-style-type: none;
+		display: inline;
+	}
+	footer .footerlinks ul li:last-child {
+		margin-left: 95px;
+	}
+}
+@media screen and (max-width: 994px){
+footer { background-color: #413E3F;
+	color: #ffffff;
+	font-size: 12px;
+	font-family: "gotham_mediumregular";
+	}
+	
+	footer li{
+		padding-left: 10px;
+		padding-top: 20px;
+	}
+		
+	footer .container {
+		width: 100%;
+	}
+	footer .floated {
+		width: 200px;
+		height: 100%;
+		margin-top: 20px;
+	}
+	footer .bottomlogo {
+		margin-top: 20px;
+		margin-left: 0px;
+	}
+}
+	footer .box.floated {
+		float: left;
+	}
+	footer .topmargin {
+		margin-top: 20px;
+	}
+
+	footer h3 {
+		font-size: 12px;
+		text-transform: uppercase;
+		color: #3bc94a;
+		padding: 0;
+		margin: 0;
+	}
+	footer ul {
+		margin: 0;
+		padding: 0;
+	}
+	footer ul li {
+		list-style-type: none;
+	}
+	footer ul li a {
+		color: #fff;
+		text-decoration: none;
+	}
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
