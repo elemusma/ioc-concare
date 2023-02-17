@@ -59,13 +59,13 @@
 					<li class="style2">Drug-free</li>
 				</ul>
 				<p><b>Open Positions</b></p>
-				<p><u>Warehouse Assistant - Part-Time</u></p>
+				<!-- <p><u>Warehouse Assistant - Part-Time</u></p>
 				<p>Summary: looking for a candidate to work in our warehouse. The ideal person can work independently, is reliable, can take direction, and comply with safety standards and procedures.  Job responsibilities include organizing and restocking inventory, equipment and supplies, cleaning equipment and keeping the warehouse clean and organized. •Must be at 18 years old. Apply below or call Sonia 708.681.8800 x233. </p>
 				<p>It's easy to apply. 1. Read the job description.  2. TO BEGIN, download the application and save it to your computer. Rename the file with your first and last name. Now you can fill out the application. Remember to re-save. 3. Send it to careers@concare.com. You're done!</p>
 				<p><b><a href="/contact-form.php">Click here to fill out the application.</a></p>
-				<p><b>Please note: Before filling out the application, SAVE the file to your computer. Rename it with your name ex:johndoeapplication.pdf. Then complete the application, resave and send it to careers@concare.com. Thank you!</b></p>
-				<br>
-				<br>
+				<p><b>Please note: Before filling out the application, SAVE the file to your computer. Rename it with your name ex:johndoeapplication.pdf. Then complete the application, resave and send it to careers@concare.com. Thank you!</b></p> -->
+				<!-- <br>
+				<br> -->
 				
 				
 				<p><u>Installer</u></p>
@@ -87,16 +87,16 @@
 				<br>
 				<br>
 
-				<p><u>Operations Manager</u></p>
+				<!-- <p><u>Operations Manager</u></p>
 				<p>Summary: Orchestrates the safe and efficient execution of customer's performance flooring installations to an exceptional level of quality.</p>
 				<p>Responsible to maintain and improve the quality and efficiency of operations simultaneously while mentoring operations and field staffing in conjunction with manufacturer’s guidelines for installation. To include utilizing project management, operations, industry specific knowledge and skills, communication and proprietary software to deliver on-time, on-budget, Concare quality installations.</p>
 				<a href="mailto:info@concare.com;careers@concare.com" target="_blank"><img src="images/applynow.png" alt="apply" width="225" height="75" hspace="5" vspace="5" "left"></a>
 				<br>
 				<br>
 				<br>
-				<br>
+				<br> -->
 				
-				<p><u>Sales Specialist</u></p>
+				<p><u>Sales Estimator</u></p>
 				<p>Summary: Sell Concare projects, achieving revenue and profitability goals in Concare’s target markets and geography.</p>
 				<p>Primary Duties Include:</p>
 				<ul style="margin-top: 0;">
